@@ -1,7 +1,4 @@
-target/
 !.mvn/wrapper/maven-wrapper.jar
-
-**/node_modules
 
 ### STS ###
 .apt_generated
@@ -17,18 +14,7 @@ target/
 *.iml
 *.ipr
 
-### NetBeans ###
-nbproject/private/
+
+### CUSTOM ###
 build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-test-directory/
-base-dir/
-
-catalog-management-console/
-test-classes/
-
-file-test.csv
+**/node_modules
