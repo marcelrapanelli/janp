@@ -15,6 +15,13 @@
 *.ipr
 
 
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+
+
 ### CUSTOM ###
 build/
 **/node_modules
