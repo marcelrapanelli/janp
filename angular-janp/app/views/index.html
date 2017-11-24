@@ -1,0 +1,27 @@
+<div class="container" style="height:400px;">
+    <div id="imagesHere">
+        <img src="{{vm.wierdImage}}" style="height:400px;width: 700px;" />
+    </div>
+</div>
+<div class="container" style="height:100px">
+    <div class="text-left">
+        <p id="lettering"></p>
+    </div>
+</div>
+<div class="container">
+    <div ng-hide="vm.isLastScript">
+        <div class="btn btn-primary btn-block" ng-click="vm.letteringShow()" ng-hide="vm.shouldDisable">
+            <h3>Proximo...</h3>
+        </div>
+
+        <div class="btn btn-default btn-block" ng-show="vm.shouldDisable">
+            <h3>Aguarde</h3>
+        </div>
+    </div>
+
+    <div ng-show="vm.isLastScript">
+        <div class="btn btn-success btn-block" ng-click="vm.continueToAdventure()">
+            <h3>Iniciar Aventura!</h3>
+        </div>
+    </div>
+</div>
